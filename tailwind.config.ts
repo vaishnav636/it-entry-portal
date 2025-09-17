@@ -58,6 +58,14 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      backgroundImage: {
+        'tech-gradient': 'var(--gradient-primary)',
+        'card-gradient': 'var(--gradient-secondary)',
+        'accent-gradient': 'var(--gradient-accent)',
+      },
+      backdropBlur: {
+        'glass': '20px',
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
